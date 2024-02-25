@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(177, 235, 244);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(30, 179, 67);
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    width: 300px;
+}
+.Huellita img{
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.carousel-inner {
+    background-color: rgb(114, 101, 126);
+    padding: 10PX;
+    margin: 10px;
+}
+.Horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Horarios h1{
+    font-size: 70px;
+    color: rgb(39, 27, 51);
+    font-family: "Kode Mono", monospace;
+    background-color: rgb(191, 148, 231);
+   
+}
+.Horarios p{
+    font-size: 30px;
+    color: rgb(91, 61, 103);
+    font-family: "EB Garamond", serif;
+    background-color: rgb(235, 167, 225);
+    
+}
+.Contenedor h1{
+    font-size: 70px;
+    color: rgb(140, 89, 192);
+    font-family: "Kode Mono", monospace;
+}
+p{
+    font-size: 50px;
+    color: rgb(17, 21, 18);
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#ubicaciones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#ubicaciones iframe{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin:10px ;
+}
+.Contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(213, 184, 235);
+}
+.Caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Caja img {
+    border-radius: 50%;
+
+}
+.Caja p{
+    font-size: 20px;
+
+}
+.text-light{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

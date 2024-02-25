@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>Mi primera pagina web</title>
+</head>
+<body>
+    <header>
+        <div  class="Huellita">
+            <img src="./Imagenes/Huellita.jpeg" alt="Huellita">
+        </div>
+        <nav>
+            <ul>
+                <a href="#huellitas"><Li>NOSOTROS</Li> </a>
+                <a href="https://youtu.be/eoXB2BE1akc?si=JEmZs17CKNnLt93C"><Li>SERVICIOS</Li></a>
+                <a href="#ubicaciones"><Li>UBICACIONES</Li></a>
+                <a href="https://www.facebook.com/profile.php?id=100094570410459&locale=es_LA"><Li>CONTACTANOS</Li></a>
+                <a href="https://www.youtube.com/shorts/HB2FB2cu4Ks"><Li>PROMOCIONES</Li></a>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imagenes/Bertho.jpeg" class="d-block mx-auto img-fluid" alt="Bertho">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Scooby.jpeg" class="d-block mx-auto img-fluid" alt="Scooby">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Dolly.jpeg" class="d-block mx-auto img-fluid" alt="Dolly">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/mimiski.jpeg" class="d-block mx-auto img-fluid" alt="mimiski">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Gordita.jpeg" class="d-block mx-auto img-fluid" alt="Gordita">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Prev</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<div class="Contenedor" id="huellitas"> 
+    <div class="Caja">
+        <img src="./Imagenes/Finnick.jpeg" alt="Finnick">
+        <h1>HUELLITAS</h1>   
+        <P>Huellitas es el lugar en donde puedes encontrar cualquier cosa para el nene consentido de la familia, y en quién puedes confiar para consetir y cuidar a tu mejor amigo, huellitas spa esta hecho para darle la maxima relajacion a tu perrhijo porque el tambien merece relajarse y ser tratado como la realeza que es.  </P>    
+    </div>
+    <div class="Caja">
+        <img src="./Imagenes/Gordolobo.jpeg" alt="Gordolobo">
+        <h1>GUARDERIA</h1>
+        <P>Un problema hoy en dia para los papás y mamás de perrhijos es en donde dejar a tu cachorro mientras tu trabajas o simplemente mientras estas fuera de casa por algun motivo y quieres tener la tranquilidad de que esta en buenas manos, nosotros lo cuidamos, estará acompañado todo el tiempo por nuestros peluditos de apoyo.</P>
+        
+    </div>
+    <div class="Caja">
+        <img src="./Imagenes/Chichara.jpeg" alt="Chichara">
+        <h1>BIENVENIDES</h1>
+        <P>Todo peludito es bienvenido a hospedarse con nosotros, si tu gathijo no puede acompañarte a esa reunion familiar porque la tia es pesada y no quiere gatos bonitos en su casa, tenemos un lugar especial con nosostros para el mininou.</P>
+        
+    </div>
+</div>
+<div class="contenedor">
+  <div class="Horarios">
+   <h1>HORARIOS</h1>
+    <div id="contenido">
+       <p>LUNES A VIERNES 10 AM - 5 PM</p>
+    </div>
+   <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+  
+  
+     <div id="contenido2">
+        <p>SABADOS Y DOMINGOS 10 AM - 2 PM</p>
+     </div>
+    <button onclick='muestra_oculta("contenido2")' class="btn btn-primary" form="contenido2">+</button>
+  </div>
+</div>
+    <div id="ubicaciones" class="container">
+      <div class="row">
+        <div class="col-fluid bg-info">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3499950932655!2d-99.02222362934806!3d19.397278081874504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fcd6b7af0457%3A0x38cad42ccc35240f!2sPalacio%20de%20Iturbide%20315%2C%20Evolucion%2C%2057700%20Cdad.%20Nezahualc%C3%B3yotl%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1708143878572!5m2!1ses!2smx" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    
+        <div class="row">
+          <div class="col-fluid bg-dark"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m7-J0vZOS6U?si=PS1OCQ77DsCovNjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div> 
+   <footer class="container-fluid bg-dark">
+    <p class="text-light">Conoce nuestra politica de privacidad.|Todos los derechos reservados a huellitas.mx</p>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
